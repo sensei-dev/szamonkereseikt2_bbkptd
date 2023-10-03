@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dolgozat</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="stilus.css"> 
+</head>
+<body>
+    <h1 class="text-center">Közvélemény kutatás</h1>
+    <form action="post.html" method="POST">
+        <label for="szulhonap">Születesi idő:</label><br>
+        <input type="month" id="szulhonap" name="szulhonap"><br>
+        <label for="knev">Keresztnév:</label><br>
+        <input type="text" id="knev" name="knev"><br>
+        <label for="szev">Születési év:</label><br>
+        <input type="number" min="1950" max="2000" required id="szev" name="szev"><br>
+        <label for="telszam">Telefonszám</label><br>
+        <input type="tel" required id="telszam" name="telszam"><br>
+        <label for="ecim">E-mail cím:</label><br>
+        <input type="email" id="ecim" name="ecim"><br>
+        <label for="submit"></label><br>
+        <input type="submit" id="submit" name="submit"><br>
+
+
+    </form>
+</body>
+</html>
